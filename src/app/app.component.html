@@ -1,0 +1,17 @@
+<!-- <div class="container-fluid">
+  <div class="row bg-primary justify-content-center align-items-center" style="height: 80px;">
+    <div class="col-12 col-md-2 text-light h2">
+      Routing
+    </div>
+    <button class="col-12 col-md-1 text-light" (click)="gotoAbout()">About Us</button><br>
+  </div>
+  </div> -->
+<h1>Routing</h1>
+<a [routerLink]="">Home</a>
+<a [routerLink]="'about'">About</a>
+
+
+<a [routerLink]="'contact'">Contact</a><br>
+<a [routerLink]="'template'">Template</a><br>
+<a [routerLink]="'reactive'">Reactive Froms</a>
+<router-outlet />
